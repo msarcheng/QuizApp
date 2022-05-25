@@ -63,6 +63,7 @@
                 >
 
                 <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/txt_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/hint"
@@ -73,11 +74,13 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
+                android:id="@+id/btn_start"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:background="@color/design_default_color_on_primary"
                 android:text="@string/start"
+                android:textColor="@color/white"
                 android:textSize="18dp"
                 />
 
