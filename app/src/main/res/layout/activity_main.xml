@@ -25,7 +25,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="20dp"
-        app:cardCornerRadius="30dp"
+        app:cardCornerRadius="15dp"
         app:cardBackgroundColor="@color/white"
         >
         <LinearLayout
@@ -68,7 +68,6 @@
                     android:hint="@string/hint"
                     android:inputType="textCapWords"
                     android:textColor="@color/black"
-                    android:textColorHint="#7A8089"
                     />
 
             </com.google.android.material.textfield.TextInputLayout>
