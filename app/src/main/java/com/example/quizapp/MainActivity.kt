@@ -23,6 +23,17 @@ class MainActivity : AppCompatActivity() {
                     this,
                     QuizQuestionsActivity::class.java
                 )
+
+                /**
+                 * Pass additional data. to our QuizQuestionActivity as our intent above
+                 * putExtra() - intent has extra information that we sent from an activity to another
+                 *  that could be retrieve on other activity
+                 */
+                intent.putExtra(
+                    Constants.USER_NAME,
+                    txtName.text.toString()
+                )
+
                 startActivity(intent)
                 finish() //Means finished the current activity
             }
