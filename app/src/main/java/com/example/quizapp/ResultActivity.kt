@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.ImageView
 import android.widget.TextView
 
 class ResultActivity : AppCompatActivity() {
@@ -13,10 +12,7 @@ class ResultActivity : AppCompatActivity() {
         setContentView(R.layout.activity_result)
 
         val tvName: TextView = findViewById(R.id.tv_name)
-        val tvCongratulations: TextView = findViewById(R.id.tv_congratulations)
         val tvScore: TextView = findViewById(R.id.tv_score)
-        val tvResult: TextView = findViewById(R.id.tv_result)
-        val ivTrophy: ImageView = findViewById(R.id.iv_trophy)
         val btnFinish: Button = findViewById(R.id.btn_finish)
 
         tvName.text = intent.getStringExtra(Constants.USER_NAME)

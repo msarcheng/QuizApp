@@ -16,7 +16,11 @@ class MainActivity : AppCompatActivity() {
         val txtName: EditText = findViewById(R.id.txt_name)
         btnStart.setOnClickListener {
             if (txtName.text.isEmpty()) {
-                Toast.makeText(this, "Please enter you name.", Toast.LENGTH_LONG).show()
+                Toast.makeText(
+                    this,
+                    "Please enter you name.",
+                    Toast.LENGTH_LONG
+                ).show()
             } else {
                 //Lets move to another activity when name is filled.
                 val intent: Intent = Intent(
@@ -37,6 +41,7 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
                 finish() //Means finished the current activity
             }
+
         }
 
     }

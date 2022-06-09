@@ -9,17 +9,18 @@ object Constants {
     fun getQuestion(): ArrayList<Question> {
         val questionList = ArrayList<Question>()
 
-        val que1 = Question(
-            1,
-            "What country does this flag belong to?",
-            R.drawable.ic_flag_of_argentina, //Get the image for the question
-            "Argentina",
-            "Australia",
-            "Germany",
-            "Philippines",
-            1
+        questionList.add(
+            Question(
+                1,
+                "What country does this flag belong to?",
+                R.drawable.ic_flag_of_argentina, //Get the image for the question
+                "Argentina",
+                "Australia",
+                "Germany",
+                "Philippines",
+                1
+            )
         )
-        questionList.add(que1)
 
         val que2 = Question(
             2,
