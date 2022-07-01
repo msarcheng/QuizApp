@@ -114,7 +114,10 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
         }
     }
 
-    private fun selectedOptionView(tv: TextView, selectedOptionNum: Int) {
+    private fun selectedOptionView(
+        tv: TextView,
+        selectedOptionNum: Int
+    ) {
         defaultOptionsView()
 
         mSelectedOptionPosition = selectedOptionNum

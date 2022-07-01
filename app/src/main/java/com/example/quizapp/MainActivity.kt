@@ -30,8 +30,8 @@ class MainActivity : AppCompatActivity() {
 
                 /**
                  * Pass additional data. to our QuizQuestionActivity as our intent above
-                 * putExtra() - intent has extra information that we sent from an activity to another
-                 *  that could be retrieve on other activity
+                 * putExtra() - intent has extra information that we sent from an activity
+                 * to another that could be retrieve on other activity
                  */
                 intent.putExtra(
                     Constants.USER_NAME,
